@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Wikia Suite]">
+  <listeners>
+    <listener class-name="listener.TestsListenerAdapter"/>
+  </listeners>
+  <test name="Login Test(failed)">
+    <classes>
+      <class name="com.wikia.testCases.LoginTest">
+        <methods>
+          <include name="loginTest" invocation-numbers="0"/>
+        </methods>
+      </class> <!-- com.wikia.testCases.LoginTest -->
+    </classes>
+  </test> <!-- Login Test(failed) -->
+  <test name="Add Video Test(failed)">
+    <classes>
+      <class name="com.wikia.testCases.AddVideoTest">
+        <methods>
+          <include name="addVdieoTest"/>
+        </methods>
+      </class> <!-- com.wikia.testCases.AddVideoTest -->
+    </classes>
+  </test> <!-- Add Video Test(failed) -->
+</suite> <!-- Failed suite [Wikia Suite] -->

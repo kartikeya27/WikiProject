@@ -1,0 +1,19 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Wikia Suite">
+
+<listeners>
+    <listener class-name="listener.TestsListenerAdapter" />
+</listeners>
+
+<test name="Login Test">
+    <classes>
+        <class name="com.wikia.testCases.LoginTest" ></class>  
+    </classes>
+</test>
+<test name="Add Video Test">
+    <classes>
+        <class name="com.wikia.testCases.AddVideoTest" ></class>  
+    </classes>
+</test>
+
+</suite>
